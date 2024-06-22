@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./fonts/Gilroy-Bold.woff2');
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('./fonts/Gilroy-Medium.woff2');
+}
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('./fonts/Gilroy-Regular.woff2');
+}
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url('./fonts/Gilroy-Semibold.woff2');
+}
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,p,a {
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 40px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLogo{
+  width: 137px;
+  height: 40px;
+}
+
+.navigation{
+  width: 533px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  color:orangered;
+  font-family: Gilroy-SemiBold;
+}
+
+.main{
+
+}
+
+.maincontent{
+  margin-top: 84px;
+  margin-bottom: 162px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.maincontent_leftside {
+  max-width: 522px;
+}
+
+.maincontent_leftside h1{
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  margin-bottom: 17px;
+
+}
+
+.maincontent_leftside p{
+  color: #888888;
+  height: 48px;
+  max-width: 466px;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 37px;
+}
+
+.maincontent_btn{
+  height: 50px;
+  width: max-content;
+  display: flex;
+  gap: 72px;
+  align-items: center;
+}
+
+.startbtn {
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 17.58px;
+  background: #F25822;
+  color: #FFFFFF;
+  border-radius: 50px;
+  width: 140px;
+  height: 50px;
+}
+
+.videobtn { 
+  background-color: white;
+  color: #AAAAAA;
+  border: none;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  height: 19px;
+  width: 90px;
+}
+
+.maincontent_rightside{
+
+}
+
+.footer {
+  height: 243px;
+}
+
+.logos {
+  margin-top: 97px;
+  margin-bottom: 97px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos img{
+  height: 50px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  }
+
